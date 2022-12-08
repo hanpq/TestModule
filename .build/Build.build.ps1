@@ -40,8 +40,6 @@ param
 
 Task Build_ModuleOutput {
 
-    DebugTaskVariables
-
     . Set-SamplerTaskVariable -AsNewBuild
 
     Import-Module -Name ModuleBuilder -ErrorAction 'Stop'
